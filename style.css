@@ -1,0 +1,80 @@
+body {
+  background-color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Lobster Two', cursive;
+  color: darkblue;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 10px;
+  text-align: center;
+}
+
+#intro-p {
+  margin-bottom: 30px;
+}
+
+.list-inline{
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  font-size: 30px;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+#btn-blue {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
